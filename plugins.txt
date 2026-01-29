@@ -1,0 +1,14 @@
+General Plugins
+lazy.nvim
+blink.cmp
+tokyodark.nvim
+nvim-tree
+mason-lspconfig
+mason.nvim
+
+Java
+nvim-java
+
+LSP's 
+jdtls
+
