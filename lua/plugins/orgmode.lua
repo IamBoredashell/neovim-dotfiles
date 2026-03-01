@@ -62,9 +62,10 @@ org_capture_templates = {
   p = {
     description = "Personal Todo",
     template = [[
+\n 
 * TODO %?
 :PROPERTIES:
-:CREATED_AT: %U
+:CREATED: %U
 :END:
 ]],
     target = "~/.personal/Org Files/Personal.org",
@@ -73,9 +74,10 @@ org_capture_templates = {
   c = {
     description = "College Todo",
     template = [[
+\n
 * TODO %?
 :PROPERTIES:
-:CREATED_AT: %U
+:CREATED: %U
 :END:
 ]],
     target = "~/.personal/Org Files/College.org",
@@ -84,12 +86,25 @@ org_capture_templates = {
   w = {
     description = "PBL Todo",
     template = [[
+\n
 * TODO %?
 :PROPERTIES:
-:CREATED_AT: %U
+:CREATED: %U
 :END:
 ]],
     target = "~/.personal/Org Files/PBL.org",
+  },
+
+  i = {
+    description = "Idea",
+    template = [[
+\n
+* %?
+:PROPERTIES:
+:CREATED: %U
+:END:
+]],
+    target = "~/.personal/Org Files/idea.org",
   },
 }
 
