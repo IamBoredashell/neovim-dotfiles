@@ -17,4 +17,6 @@ keymap("n", "<leader>rn", vim.lsp.buf.rename, { silent = true })
 keymap("n", "K", vim.lsp.buf.hover, { silent = true })
 
 
-
+-- Org Super agenda
+keymap('n', '<leader>osa', '<cmd>OrgSuperAgenda<cr>')
+keymap('n', '<leader>osA', '<cmd>OrgSuperAgenda!<cr>') -- fullscreen
