@@ -39,7 +39,7 @@ return {
       org_files           = {},
       org_directories     = {"/home/xeo/.personal/Org Files/"}, -- recurse for *.org
       exclude_files       = {},
-      exclude_directories = {},
+      exclude_directories = {"/home/xeo/.personal/Org Files/.stversions"},
 
       -- TODO states + their quick filter keymaps and highlighting
       -- Optional: add `shortcut` field to override the default key (first letter)
